@@ -18,6 +18,20 @@
         "url": "{{url}}/buttons.html"
       },
       "response": []
+    },
+    {
+      "_postman_id": "b61b1a58-2f60-4c4e-81fa-56cc0f8794b0",
+      "name": "getUtilityColors",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": "{{url}}/utilities-color.html"
+      },
+      "response": []
     }
   ]
 }
