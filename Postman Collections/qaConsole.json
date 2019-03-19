@@ -1,0 +1,23 @@
+{
+  "info": {
+    "_postman_id": "751fca6a-9fb0-4a15-8bea-76d39aad5ca3",
+    "name": "qaConsole",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "a07762c1-46f5-4005-8f7f-1f37736f2e19",
+      "name": "getTables",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": "{{url}}/buttons.html"
+      },
+      "response": []
+    }
+  ]
+}
