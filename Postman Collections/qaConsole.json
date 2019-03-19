@@ -8,6 +8,20 @@
     {
       "_postman_id": "a07762c1-46f5-4005-8f7f-1f37736f2e19",
       "name": "getTables",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "bfa6c507-07ea-4392-a9c9-c46b65809d2a",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
       "request": {
         "method": "GET",
         "header": [],
@@ -22,6 +36,20 @@
     {
       "_postman_id": "b61b1a58-2f60-4c4e-81fa-56cc0f8794b0",
       "name": "getUtilityColors",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "e55401af-c205-4c7a-98ea-0b7fbd00cbc5",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
       "request": {
         "method": "GET",
         "header": [],
@@ -30,6 +58,34 @@
           "raw": ""
         },
         "url": "{{url}}/utilities-color.html"
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "734bc7a5-d6de-4f3f-948e-25fb91555611",
+      "name": "getCharts",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "dc6a6165-d92c-428c-93f1-21d48b9d06cf",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": "http://localhost:3000/charts.html"
       },
       "response": []
     }
